@@ -102,3 +102,23 @@ textarea {
     resize: none;
 }
 
+
+button {
+    padding: 10px 20px;
+    font-size: 3em;
+    background-color: #f8acc8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    align-items: center;
+    margin-left: 20rem;
+    width: 25rem;
+    margin-top: -8rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #eb77b1;
+}
