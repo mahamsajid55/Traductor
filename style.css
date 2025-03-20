@@ -1,113 +1,124 @@
-body{
-    background-color: #FF9E7B;
-}
+*
+body {
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* height: 10%; */
+            background: linear-gradient(0.25turn, #91f1ef,  #ffd5e0);
+        }
 
-header {
-    background-color: #EB6548;
-    text-align: center;
-    height: 50px; 
-    padding: 15px;
-}
+        .header{
+            width: 50%;
+            height: 10rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 4rem;
+           background-color:  #f8acc8;
+           border-radius: 10rem;
+           position: relative;
+           left: 64rem;
+        }
 
-h1{
-    margin-top: -0rem;
-    color: rgb(253, 247, 247);
-}
 
-.container {
-    display: flex;
-    justify-content: center; 
-    gap: 2rem; 
-    margin-top: 5rem;
-}
 
-.tra-español,
- .tra-ingles {
-    background-color: #C3375A;
-    color: white;
-    width: 50%;
-    text-align: center;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
-    border-radius: 10px;
-}
+.header h1{
+    font-size: 8rem;   
+} 
+        
+        .container {
+            /* background-color: #7abd87; */
+            margin-top: 20rem;
+            position: relative;
+            right: 100rem;
+            bottom: 30rem;
+            padding: 40rem;
+            width: 100%;
+            height: 60%;
+            /* border-radius: 8px; */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .header1 {
+            background-color:  #f8acc8;
+            padding: 40px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+            color: black;
+            font-size: 3rem;
+            border-radius: 3rem;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 9rem;
+            /* padding: 50px; */
+        }
+        .box {
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+            min-height: 20rem;
+            border-radius: 4rem;
+        }
 
-.tra-container {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    gap: 2rem;
-    margin-top: 5rem;
+
+
+
+
+
+/* .container2 {
+   background-color: #7abd87;
+   padding: 40rem;
+   width: 100%;
+   height: 40%;
+   border-radius: 8px;
+   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+} */
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9rem;
     padding: 20px;
-    background-color: rgb(230, 212, 212);
-}
-
-
-.container1{
-    display: flex;
-    justify-content: center; 
-    gap: 2rem; 
-    margin-top: 5rem;
-}
-
-.tra-español1,
- .tra-ingles1 {
-    background-color: #ffffff;
-    color: white;
-    width: 50%;
-    text-align: center;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); 
-    border-radius: 10px; 
-    height: 20rem;
-    margin-top: -3rem;
-}
-
-.tra-container1 {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    gap: 2rem;
-    margin-top: 5rem;
-    padding: 20px;
-    background-color: rgb(230, 212, 212);
-}
-
-textarea {
-    width: 50%;
-    height: 100px;
-    margin-top: -50px;
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    font-size: 16px;
-    resize: none; 
+    margin-top: 7rem;
     
 }
 
-h3{
-    color: rgba(82, 74, 74, 0.945);
-    margin-top: 8rem;
+.box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 20rem;
+    font-size: 3rem;
+    color: grey;
+    border-radius: 1.5rem;
 }
 
-
-
-/* footer */
-
-html, body {
-    height: 100%; 
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    margin-top: 0rem;
-}
-
-footer {
-    background-color: #EB6548;
-    padding: 20px; 
+.header2 {
+    background-color:  #f8acc8;
+    padding: 30px;
+    margin-bottom: 30px;
     text-align: center;
-    margin-top: auto;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
-    height: 40px; 
-    line-height: 40px;
-    margin-top: 10rem;
+    font-weight: bold;
+    color: black;
+    font-size: 3rem;
+    border-radius: 3rem;
+}
+
+textarea {
+    width: 96%;
+    height: 150px;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #f4a261;
+    border-radius: 10px;
+    resize: none;
+}
+
+
+.footer{
+    background-color:  #3e7e55;
+    width: 100%;
+    height: 7rem;
 }
